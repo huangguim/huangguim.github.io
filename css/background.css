@@ -1,0 +1,28 @@
+
+.item-1 {
+    background: rgba(0, 0, 0, 0) url("../images/bg7.jpg") no-repeat scroll center center / cover ;
+}
+.item-2 {
+    background: rgba(0, 0, 0, 0) url("../images/base.jpg") no-repeat scroll center center / cover ;
+}
+.item-5 {
+    background: rgba(0, 0, 0, 0) url("../images/bg1.jpg") no-repeat scroll center center / cover ;
+}
+.item-4 {
+    background: rgba(255, 255, 255, 0.1) none repeat scroll 0 0;
+}
+.guns {
+    background-size: cover;
+    display: none;
+    height: 100%;
+    opacity: 1;
+    position: fixed;
+    width: 100%;
+}
+.pure {
+    background: rgba(0, 0, 0, 0) url("../images/pure.jpg") no-repeat scroll center center / cover ;
+    display: none;
+    height: 100%;
+    position: fixed;
+    width: 100%;
+}

@@ -1,0 +1,23 @@
+
+.item-6 {
+    font-size: 15px;
+}
+.item-6 .top {
+    background: #16ba9d none repeat scroll 0 0;
+    height: 50%;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+}
+.item-6 .foot {
+    background: #16ba9d none repeat scroll 0 0;
+    bottom: 0;
+    height: 50%;
+    position: absolute;
+    width: 100%;
+    z-index: 10;
+}
+.item-6 .word {
+    font-size: 20px;
+}

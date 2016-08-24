@@ -1,0 +1,144 @@
+
+.item-3 .container {
+    display: none;
+    height: 100%;
+    position: relative;
+}
+.item-3 .bg-img {
+    animation: 0.5s ease 0s normal none 1 running bg-img;
+    bottom: 0;
+    opacity: 0.5;
+    position: absolute;
+    right: 0;
+    width: 541px;
+}
+.item-3 .bg-img img {
+    display: block;
+    width: 100%;
+}
+.item-3 .sm-img {
+    animation: 1s ease 0s normal forwards 1 running sm-img;
+    bottom: 20%;
+    opacity: 0;
+    position: absolute;
+    right: 1%;
+    width: 309px;
+}
+.item-3 .sm-img img {
+    display: block;
+    width: 100%;
+}
+.item-3 .img-3 {
+    left: 10%;
+    min-width: 100px;
+    position: absolute;
+    width: 10%;
+}
+.item-3 .img-3 img {
+    display: block;
+    width: 100%;
+}
+.item-3 .img-3 {
+    top: 70%;
+}
+.item-3 .img-3 {
+    animation: 2s ease 0s normal none infinite running hinge;
+    transform: rotate3d(0, 0, 1, 60deg);
+    transform-origin: left top 0;
+}
+.item-3 .skills span {
+    color: #000000;
+    left: 50%;
+    position: absolute;
+    top: 80%;
+    transform: scale(0.5);
+}
+.subject-1 {
+    font-size: 48px;
+    margin-left: -400px;
+    margin-top: -50px;
+}
+.subject-2 {
+    font-size: 18px;
+    margin-left: -250px;
+    margin-top: 40px;
+}
+.subject-3 {
+    font-size: 14px;
+    margin-left: -270px;
+    margin-top: 10px;
+}
+.subject-4 {
+    font-size: 20px;
+    margin-left: -200px;
+    margin-top: -30px;
+}
+.subject-5 {
+    font-size: 20px;
+    margin-left: -120px;
+    margin-top: 50px;
+}
+.subject-6 {
+    font-size: 30px;
+    margin-left: 81px;
+    margin-top: -35px;
+}
+.subject-7 {
+    font-size: 16px;
+    margin-left: 0;
+    margin-top: -40px;
+}
+.subject-8 {
+    font-size: 20px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.subject-9 {
+    font-size: 18px;
+    margin-left: 2px;
+    margin-top: 41px;
+}
+.subject-10 {
+    font-size: 18px;
+    margin-left: -150px;
+    margin-top: 10px;
+}
+.item-3 .skills span {
+    animation: 2s linear 0s normal forwards 1 running bounceIn;
+}
+.item-3 .skill-introduce {
+    color: #000000;
+    left: 5%;
+    position: absolute;
+    text-align: left;
+    top: 20%;
+}
+.item-3 .skill-introduce a {
+    display: block;
+    height: 40px;
+    width: 40px;
+}
+.item-3 .skill-introduce a img {
+    display: block;
+    width: 100%;
+}
+.skill-introduce .media-body p {
+    color: #000;
+    font-family: microsoft yahei,sans-serif;
+    font-size: 14px;
+}
+.skill-introduce .media {
+    margin-bottom: 20px;
+}
+.skill-introduce .media:nth-child(1) {
+    animation: 2s linear 0s normal forwards 1 running bounceInLeft;
+    opacity: 0;
+}
+.skill-introduce .media:nth-child(2) {
+    animation: 2s linear 0s normal forwards 1 running bounceInRight;
+    opacity: 0;
+}
+.skill-introduce .media:nth-child(3) {
+    animation: 2s linear 0s normal forwards 1 running bounceInDown;
+    opacity: 0;
+}

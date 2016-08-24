@@ -1,0 +1,91 @@
+
+.item-1 .word {
+    margin-top: -10%;
+}
+.item-1 .word > span {
+    color: #0a9676;
+    font-size: 50px;
+    font-weight: 700;
+    text-align: center;
+    text-shadow: 5px -2px 8px #151414;
+}
+.item-1 .word > span.hidden-xs, .item-1 .word > span.col-xs-12 {
+    color: #b6bf31;
+    text-shadow: 9px -2px 15px #000;
+}
+.item-1 .motto {
+    font-size: 25px;
+}
+.item-1 .next-page {
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    border-radius: 50%;
+    bottom: 10%;
+    height: 70px;
+    left: 50%;
+    margin-left: -35px;
+    position: absolute;
+    width: 70px;
+}
+.item-1 .next-page, .item-1 .next-page:hover, .item-1 .next-page:focus {
+    color: yellowgreen;
+}
+.item-1 .next-page {
+    background: rgba(0, 0, 0, 0.2) none repeat scroll 0 0;
+    line-height: 80px;
+    overflow: hidden;
+    transition: all 1s ease 0s;
+}
+.item-1 .next-page:hover {
+    background: rgba(51, 51, 51, 1) none repeat scroll 0 0;
+}
+.item-1 .next-page span {
+    animation: 2s linear 0s normal none infinite running nextPage;
+    font-size: 30px;
+}
+.item-1 .next-page {
+    animation: 2s ease 0s normal none 1 running fadeInUp;
+}
+.item-1 .inner {
+    display: none;
+    height: 100%;
+    position: absolute;
+    width: 100%;
+}
+.item-1 .corner1, .item-1 .corner2, .item-1 .corner3, .item-1 .corner4 {
+    max-width: 72px;
+    min-width: 50px;
+    position: absolute;
+    width: 5%;
+}
+.item-1 [class^="corner"] img {
+    width: 100%;
+}
+.item-1 .corner1 {
+    animation: 1s ease 0s normal none 1 running corner1;
+    left: 10%;
+    top: 10%;
+    transform-origin: 0 50% 0;
+}
+.item-1 .corner2 {
+    animation: 1s ease 0s normal none 1 running corner2;
+    bottom: 10%;
+    left: 10%;
+    transform-origin: 0 50% 0;
+}
+.item-1 .corner3 {
+    animation: 1s ease 0s normal none 1 running corner3;
+    right: 10%;
+    top: 10%;
+}
+.item-1 .corner4 {
+    animation: 1s ease 0s normal none 1 running corner4;
+    bottom: 10%;
+    right: 10%;
+}
+.word > span:nth-child(1), .word > span:nth-child(2) {
+    animation: 2s ease 0s normal none 1 running fadeInDownBig;
+    display: inline-block;
+}
+.word p {
+    animation: 2s ease 0s normal none 1 running p-fly;
+}

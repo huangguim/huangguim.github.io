@@ -1,0 +1,9 @@
+
+@keyframes nextPage {
+0% {
+    top: -55px;
+}
+100% {
+    top: 30px;
+}
+}
